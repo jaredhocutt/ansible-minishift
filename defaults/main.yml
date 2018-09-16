@@ -1,0 +1,10 @@
+---
+
+minishift_version: latest
+installed_minishift_version: ""
+
+minishift_install_dir: /usr/local/bin
+minishift_binary_path: "{{ minishift_install_dir }}/minishift"
+
+minishift_archive_filename: minishift-{{ minishift_version | regex_replace('^v', '') }}-linux-amd64.tgz
+minishift_download_url: https://github.com/minishift/minishift/releases/download/{{ minishift_version }}/{{ minishift_archive_filename }}

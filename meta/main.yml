@@ -1,0 +1,13 @@
+galaxy_info:
+  role_name: minishift
+  author: Jared Hocutt
+  description: Installs minishift
+
+  license: BSD
+
+  min_ansible_version: 2.1
+
+  platforms:
+  - name: Fedora
+    versions:
+    - 27
